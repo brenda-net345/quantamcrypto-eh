@@ -72,7 +72,7 @@ export function initializeStorage() {
       },
       {
         name: "Quan",
-        email: "quan@example.com",
+        email: "quan333@gmail.com",
         password: "password123",
         balances: {
           usd: 200,
