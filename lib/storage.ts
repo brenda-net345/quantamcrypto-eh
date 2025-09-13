@@ -70,6 +70,17 @@ export function initializeStorage() {
           usdt: 0,
         },
       },
+      {
+        name: "Quan",
+        email: "quan@example.com",
+        password: "password123",
+        balances: {
+          usd: 200,
+          btc: 0.001232,
+          eth: 0,
+          usdt: 0,
+        },
+      },
     ]
     localStorage.setItem("users", JSON.stringify(defaultUsers))
   }
