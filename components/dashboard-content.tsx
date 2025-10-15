@@ -168,7 +168,7 @@ export function DashboardContent() {
       />
       <Tabs defaultValue="deposit" className="w-full">
         <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="deposit">Deposit to your account</TabsTrigger>
+          <TabsTrigger value="deposit">Add funds</TabsTrigger>
           <TabsTrigger value="trade">Trade</TabsTrigger>
           <TabsTrigger value="withdraw">Withdraw</TabsTrigger>
         </TabsList>
