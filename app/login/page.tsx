@@ -121,6 +121,7 @@ export default function LoginPage() {
         <p className="text-base sm:text-lg text-gray-200 logo-pattern-bg">
           Trusted by <span className="text-orange-500 font-semibold">over 500k users</span> worldwide
         </p>
+        <p className="text-base sm:text-lg text-gray-200 mt-1 logo-pattern-bg">Encrypted & Secure</p>
       </div>
 
       <Card className="w-[350px]">

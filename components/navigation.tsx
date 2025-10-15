@@ -48,20 +48,20 @@ export function Navigation() {
 
           {isLoggedIn ? (
             <>
-              <Link href="/contact">
-                <Button
-                  variant="outline"
-                  className="text-white text-sm sm:text-base border-primary hover:bg-primary/10 bg-transparent"
-                >
-                  Contact
-                </Button>
-              </Link>
               <Link href="/dashboard">
                 <Button
                   variant="outline"
                   className="text-white text-sm sm:text-base border-primary hover:bg-primary/10 bg-transparent"
                 >
                   Dashboard
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button
+                  variant="outline"
+                  className="text-white text-sm sm:text-base border-primary hover:bg-primary/10 bg-transparent"
+                >
+                  Contact
                 </Button>
               </Link>
               <Button

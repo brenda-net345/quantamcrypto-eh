@@ -27,7 +27,7 @@ export async function POST(req: Request) {
     // Check if Resend API key is available and valid
     const resendApiKey = process.env.RESEND_API_KEY
 
-    if (resendApiKey && resendApiKey !== "your-resend-api-key-here") {
+    if (resendApiKey && resendApiKey.startsWith("re_")) {
       try {
         // Only import and use Resend if API key is properly configured
         const { Resend } = await import("resend")
