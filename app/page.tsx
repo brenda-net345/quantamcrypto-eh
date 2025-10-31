@@ -48,7 +48,7 @@ export default function Home() {
       <footer className="py-6 px-4 border-t border-gray-700/50">
         <div className="container mx-auto text-center">
           <p className="text-sm text-gray-300 logo-pattern-bg">
-            Copyright © 2019 - 2025 Quantum<span className="text-orange-500">Crypto</span>.site. All rights reserved.
+            Copyright © 2025 Quantum Crypto Ltd. All rights reserved.
           </p>
         </div>
       </footer>
