@@ -14,6 +14,7 @@ import { toast } from "@/components/ui/use-toast"
 import { Eye, EyeOff } from "lucide-react"
 import { useLoginState } from "@/components/login-state-provider"
 import { getUsers, setCurrentUser } from "@/lib/storage"
+import Image from "next/image"
 
 interface User {
   name: string
@@ -116,6 +117,17 @@ export default function LoginPage() {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)]">
+      <div className="mb-4 flex items-center justify-center gap-3">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fopbp45h6lWoIN2WF2e8uOiYlSsHEk.png"
+          alt="Swiss flag"
+          width={32}
+          height={32}
+          className="w-8 h-8"
+        />
+        <span className="text-gray-200 font-medium">Swiss-based</span>
+      </div>
+
       {/* Trust indicator at the top */}
       <div className="mb-6 text-center">
         <p className="text-base sm:text-lg text-gray-200 logo-pattern-bg">
